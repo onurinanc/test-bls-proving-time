@@ -1,0 +1,9 @@
+[package]
+name = "bls_proving_time_0.17.0"
+type = "bin"
+authors = [""]
+compiler_version = "0.17.0"
+
+[dependencies]
+bigint = {path = "../noir-bigint-bls12_381"}
+bls12_381 = {path = "../bls12-381"}
